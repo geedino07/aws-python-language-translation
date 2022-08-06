@@ -1,4 +1,5 @@
 import boto3
+import click
 
 client = boto3.client('translate', region_name="us-east-1")
 text = "estoy enamorado de mi esposa"
